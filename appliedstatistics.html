@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>Applied Statistics</title></head><body>
+<p><b><font size="+1">Mastercourse Applied Statistics: Nonparametric methods Wi 4206</font><br>
+</b></p>
+<b>Course overview:<br>
+</b>The aim of this course it to obtain a broad knowledge of
+nonparametric methods in statistics. Many methods in statistics are
+parametric in nature. In this case the probability law of the data is
+assumed to be parametrized by a finite-dimensional parameter. The basic
+idea of nonparametric methods is to drop this often restrictive
+assumption. These methods thereby offer much more flexibility to model
+the data than classical parametric methods. The topics that we will
+cover in this course form a mix of classical distribution free methods
+and more modern topics. The focus is both on the application and theory
+of these methods. Examples will be illustrated using the statistical
+computing tools, namely the <a href="http://www.r-project.org/" target="_blank">statistical computing package R</a>. There are many tutorials on R on the internet, for example <a href="RforBeginners.pdf" target="_blank">R for beginners</a> and <span style="text-decoration: underline;"><a href="RShort-refcard.pdf" target="_blank">R short reference card</a></span><i>.<br>
+</i>
+
+<hr style="width: 100%; height: 2px;"><b>Time schedule:<br>
+</b>Lectures start at 13:00 and are in the Buys Ballot Lab. room BBL 079 of the University of Utrecht on<br>
+februari: 6, 13, 20 <br>
+march: 5, 12, 19*, 26 <br>
+april: 2, 16, 23 <br>
+may: 7, 14<br><br>
+Each class consists roughly of two 45 minutes time slots. After the
+lecture there is an optional one hour slot (15:00 - 16:00) in the same room, that
+will be used for discussing the exercises, course contents and related
+materials. In this hour I will not discuss new material. It serves merely as "office hours". <br>
+<br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Course materials:</span><br>
+The contents of the course will be taken from various sources (e.g.
+lectures notes / slides / articles). Part of the material will follow
+closely the book <br>
+"All of Nonparametric Statistics" (Springer; author: L. Wasserman, "ISBN-10:" 0387251456)<br>
+<br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Lecture notes, slides and articles:</span><br>
+<ol>
+  
+  <li><a style="color: rgb(0, 0, 238);" href="slides-intro-ECDF_handout.pdf">Slides</a><span style="color: rgb(204, 102, 0);"><span style="color: rgb(0, 0, 238);">&nbsp;</span> <a href="notes-ECDF-NPMLE.pdf">Notes</a>&nbsp; <span style="color: black;">Study
+chapter 1 and section 2.1 of the book by Wasserman. Please download R,
+do an introductory session and have a look at the code in the file</span> <a href="confint_df.R">confint_df.R</a>
+    <span style="color: black;">(it demonstrates how you can compute confidence bands for the empirical
+distribution function, both pointwisely and uniformly). Then try to make
+exercises 1, 2, 3 and 4 from exercise set 1 below.&nbsp;&nbsp; </span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <a href="slides-gof_handout.pdf"><br>
+    </a>
+</span></li>
+  
+  <li style="color: black;"><a href="slides-gof_handout.pdf">Slides</a> <a href="notes-gof.pdf">Notes</a>&nbsp;
+Make exercises 5 and 6 from exercise set 1 and the exercises from
+exercise set 2. The file from exercise set 1 has been updated: answers
+of the questions for week 1 have been appended.<br>
+
+    </li>
+
+
+  <li style="color: black;"><a href="slides-permutation-tests_handout.pdf">Slides</a>&nbsp; <a href="permutation_tests_statscience.pdf">Article by M. Ernst</a> Make the exercises from exercise set 3. <a href="Rfiles%20permutation%20examples.zip">Here</a> are the R-scripts I used for preparing the figures in the slides. <br>
+
+    </li>
+  <li style="color: black;"><a href="slides-bootstrap_handout.pdf"></a>Study sections 3.2, 3.3, 3.5 and 3.6 from the book by Wasserman. Make
+the exercises from exercise set 4. Read sections 1 and examples 1 and 2
+from section 2 of the following <a href="intro_bootstrap_statscience.pdf">article by D. Boos.</a> Next week, we I will discuss these examples. <br>
+
+    </li>
+  <li style="color: black;"><a href="slides-bootstrap_handout.pdf">Updated slides</a>. Study sections 3.4 and 3.5 from the book by Wasserman. Read sections 1 and examples 1 and 2
+from section 2 of the article by D. Boos. <a href="bs.example.exp.model.R">Here</a> is the R-code I used to prepare the figures in slides 13--16. <a href="boos.example1.R">Here</a>
+is the corrected code for example 1 in the articles by D. Boos. Along with the correction, see the following <a href="gof-loc-scale.pdf">note</a>. Make
+the exercises from exercise set 5. </li>
+  <li style="color: black;"><a href="handwritten_notes_smoothing.pdf">Here</a> are my handwritten notes. Make
+the exercises from exercise set 6.
+
+    </li>
+  <li style="color: black;">We
+have completed chapter 4 in Wasserman now. The regression problem
+discussed is detailed in this note. Make the exercises at the end of
+this <a href="simple_regression.pdf">note</a>. <br>
+
+    </li>
+  <li style="color: black;">Here are some of my handwritten<a href="handwritten_notes_W51-52.pdf"> notes</a>. Read sections 5.1 (up to thm 5.14), 5.2 and 5.3 (up to theorem 5.34). I showed a local fit using the file <a href="locfit.demo.R">locfit.demo.R</a>
+(more on this in the next lecture; to run the script you need to
+install the 'locfit' package). Make the exercises from exercise set 8. <br>
+
+    </li>
+  <li style="color: black;">Read section 5.4. Make the exercises from exercise set 9. 
+
+    </li>
+  <li style="color: black;">Read
+section 5.6 up till example 5.92. Read section 5.7 up till example
+5.98. Read section 5.10. Make the exercises from exercise set 10. </li>
+  <li style="color: black;">Read chapter 3 from "Semiparametric Regression" by Ruppert, Wand and Carroll. During the lecture I used <a href="R-files_lecture_week11.zip">2 R-scripts</a>. Make the exercises from exercise set 11.</li>
+  <li style="color: black;"><a href="slides_pen_regression_handout.pdf">Slides</a> from the lecture. Chapter 4 from "Semiparametric
+Regression" by Ruppert, Wand and Carroll serves as reference (I did not
+cover all of this chapter, what you should know about for the exam is
+in the slides). Here are some <a href="R-scripts_week12.zip">R-scripts</a> I used. Make the exercises from exercise set 12. <br>
+</li></ol>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Homework / exercises:<br>
+</span>
+<ol>
+  
+  <li style="color: black;"><a href="exercises-ecdf.pdf">exercise set 1</a></li>
+  <li style="color: black;"><a href="exercises-gof.pdf">exercise set 2</a><br>
+
+    </li>
+
+  <li style="color: black;"><a href="exercises-permutation-tests.pdf">exercise set 3</a><br>
+
+    </li>
+  <li style="color: black;"><a href="exercises-bootstrap.pdf">exercise set 4</a><br>
+
+    </li>
+  <li><a href="exercises-bootstrap2.pdf"><span style="color: rgb(204, 102, 0);"><span style="color: black;">exercise set 5</span></span></a></li>
+  <li><a href="exercises_chapter4-wasserman.pdf"><span style="color: rgb(204, 102, 0);"><span style="color: black;">exercise set 6</span></span></a></li>
+  <li><span style="color: rgb(204, 102, 0);"><span style="color: black;">Exercises are in the note for this lecture. <br>
+</span></span></li>
+  <li><span style="color: rgb(204, 102, 0);"><span style="color: black;"><a href="ex_choice_smoothingpar.pdf">exercise set 8</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+    </span></span></li>
+  <li><span style="color: rgb(204, 102, 0);"><span style="color: black;"><a href="ex_wasserman_5-3and5-4.pdf">exercise set 9</a></span></span></li>
+  <li><a href="exerc_var_loclik.pdf"><span style="color: rgb(204, 102, 0);"><span style="color: black;">exercise set 10</span></span></a></li>
+  <li><span style="color: rgb(204, 102, 0);"><span style="color: black;"><a href="pois.regr.data.dat">Data for exercise set 11</a>. <a href="exercises_locallikelihood.pdf">Exercise set 11</a>.<br>
+    </span></span></li>
+
+  
+  <li><span style="color: rgb(204, 102, 0);"><span style="color: black;"><a href="exercises_penspline_regression.pdf">exercise set 12</a><br>
+    </span></span></li>
+
+
+
+
+</ol><br>
+<br>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Solutions to homework / exercises:</span><br>
+<ol>
+  <li><a href="solutions-exercises-ecdf.pdf">solutions to exercise set 1</a></li>
+  <li>I corrected a few typo's in the exercise set. The solutions are
+hand-written (I know my handwriting is awful, I tried to write
+clearly...) <a href="solution_exercises-gof.pdf">solutions to exercise set 2</a>; R-files&nbsp;<a href="cvm.comp.R">cvm.comp.R</a> and <a href="kv_ex6.2.r">kv_ex6.2.r</a>.</li>
+  <li><a href="solutions-exercises-permutation-tests.pdf">solutions to exercise set 3</a></li>
+  <li><a href="solutions-exercises-bootstrap.pdf">solutions to exercise set 4</a></li>
+  <li><a href="solutions-exercises-bootstrap2.pdf">solutions to exercise set 5</a><br>
+  </li>
+  <li><a href="handwritten_solution_exercises.pdf">solutions to exercise set 6</a><br>
+  </li>
+  <li><a href="solutions_exercises_simple_regr.probl.pdf">solutions to exercise set 7</a> <br>
+</li>
+  <li><a href="solutions_exercises_choice_sm_par.pdf">solutions to exercise set 8</a></li>
+  
+  <li><a href="solutions_exercises_was53-54.pdf">solutions to exercise set 9</a>, <a href="forensicglassdata.dat">forensicglassdat</a>, <a href="exercise_week9%28forensicglass%29.R">forensicglassR-code<br>
+    </a></li>
+  <li><a href="solutions_exercises_week10.pdf">solutions to exercise set 10</a> , <a href="sol.exercise.var.estimators.R">R-code exercise 4</a><br>
+</li>
+  <li><a href="sol.exercise_poisson_regression.R">solution to exersie set 11</a><br>
+</li>
+  <li>The exercises from exercise set 12 are meant to experiment
+yourself with some datasets. In case you run into trouble or have
+specific questions, please send me an email.<br>
+</li>
+
+
+
+
+</ol><span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Prerequisites:</span><br>
+Basic knowledge of probability and statistics, and a sufficient level of mathematical maturity. <br>
+<br>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Exam: (june 4, 13.30-16.30 EDUCATORIUM BETAZAAL, Utrecht University)<br>
+</span>The exam will potentially cover all the materials lectured. The
+emphasis is likely more on the use and understanding of the concepts
+and tools learned during the course than on encyclopedic knowledge. A
+good way to prepare for the exam is to review the homework exercises
+and all the results derived in class ensuring you understand both WHY
+and HOW each result was derived or concept was introduced. <br>
+<br>
+INSTRUCTIONS: <br>
+<ul>
+  <li>This is an OPEN NOTES exam. You can bring all the materials distributed in class, plus the book by L. Wasserman we use.</li>
+  <li>In addition, you can bring any MANUSCRIPT PERSONAL NOTES (other books, or copies of books are not allowed).</li>
+  <li>The exam is to be done INDIVIDUALLY. Therefore discussion with your fellow colleagues during the exam is not allowed!</li>
+  <li>You can use a calculator. Cellphones, notebooks or similar devices are not allowed.</li>
+  <li>You have 180 minutes (3 hours) to complete the exam.</li>
+  <li>The problems are not necessarily in order of difficulty. I
+recommend that you quickly read through all problems first, then do the
+problems in whatever order suits you best.</li>
+  <li>A correct answer does not guarantee full credit, and a wrong
+answer does not guarantee loss of credit. You should clearly and
+concisely indicate your reasoning and show all relevant work. Your
+grade on each problem will be based on my best assessment of your level
+of understanding as reflected by what you have written. JUSTIFY your
+answers and be CRITICAL of your results.</li>
+  <li>Please be organized in your write-up &#8211; I cannot grade properly if I cannot follow your reasoning.<br>
+  </li>
+</ul>
+
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;">Instructor:<br>
+</span>dr.ir. F.H. van der Meulen<br>
+Delft Institute of Applied Mathematics&nbsp;&nbsp;&nbsp; <br>
+Faculty of Electrical Engineering, Mathematics and Computer Science<br>
+Delft University of Technology<br>
+Mekelweg 4, 2628 CD Delft&nbsp;&nbsp;&nbsp; <br>
+The Netherlands<br>
+<br>
+Office: HB 06.290<br>
+Phone: +31 (0)15 2784517<br>
+Fax: +31 (0)15 2787255<br>
+E-mail: f.h.vandermeulen@tudelft.nl<br>
+
+
+</body></html>
