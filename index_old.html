@@ -4,136 +4,133 @@
     <meta http-equiv="content-type" content="text/html;
       charset=windows-1252">
     <style>
-      body {
-        font-family: "Segoe UI", Roboto, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f9f9f9;
-        color: #333;
-        line-height: 1.6;
-        display: flex;
-        min-height: 100vh;
-      }
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
 
-      header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        background: #003366;
-        color: white;
-        padding: 1rem 2rem;
-      }
-      header h1 {
-        margin: 0;
-        font-size: 2rem;
-      }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #003366;
+  color: white;
+  padding: 1rem 2rem;
+}
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
 
-      nav {
-        position: fixed;
-        top: 60px;
-        left: 0;
-        width: 200px;
-        height: calc(100vh - 60px);
-        background: #ffffff; /* Changed from #005599 to white */
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem 1rem;
-        z-index: 999;
-        overflow-y: auto;
-      }
+nav {
+  position: fixed;
+  top: 60px; /* same as before */
+  left: 0;
+  width: 100%;
+  background: #005599;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 1rem;
+  z-index: 999;
+}
 
-      nav a {
-        color: #003366; /* Changed from white to dark blue */
-        text-decoration: none;
-        font-weight: 500;
-        padding: 0.5rem 0;
-      }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
 
-      nav a:hover {
-        text-decoration: underline;
-        color: #005599; /* Added a slightly lighter blue for hover state */
-      }
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-      .container {
-        max-width: 1000px;
-        margin-left: 220px;
-        padding: 2rem;
-        margin-top: 60px;
-      }
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 140px; /* added to push content below fixed header + nav */
+}
 
-      .profile {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-        align-items: center;
-        background: white;
-        padding: 2rem;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      }
+  .profile {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
 
-      .profile img {
-        width: 170px;
-        height: auto;
-        border-radius: 8px;
-      }
-      
-      h2 {
-        border-bottom: 2px solid #005599;
-        padding-bottom: 0.5rem;
-        margin-top: 3rem;
-        color: #003366;
-      }
+.profile img {
+  width: 170px;
+  height: auto;
+  border-radius: 8px;
+}
+  h2 {
+    border-bottom: 2px solid #005599;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+    color: #003366;
+  }
 
-      a {
-        color: #005599;
-      }
+  a {
+    color: #005599;
+  }
 
-      section {
-        background: white;
-        padding: 1.5rem 2rem;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      }
-
-      @media (max-width: 768px) {
-        body {
-          flex-direction: column;
-        }
-        
-        nav {
-          position: static;
-          width: 100%;
-          height: auto;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          padding: 1rem;
-        }
-        
-        .container {
-          margin-left: 0;
-          width: 100%;
-          box-sizing: border-box;
-        }
-      }
-    </style>
-    <title>Homepage of Frank van der Meulen (Vrije Universiteit
-      Amsterdam)</title>
+  section {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+</style>
+    <title></title>
   </head>
   <body>
     <header>
-      <h1>Homepage of Frank van der Meulen <br>
+      <h1>Homepage of Frank van der Meulen (Vrije Universiteit
+        Amsterdam)<br>
       </h1>
     </header>
-    <nav> <a href="#research">Research</a> <a href="#consulting">Consulting</a>
-      <a href="#preprints">Preprints</a> <a href="#publications">Publications</a>
-      <a href="#cv">CV</a> <a href="#teaching">Teaching</a> <a
-        href="#software">Software</a> <a href="#presentations">Presentations</a>
-      <a href="#books">Books</a> </nav>
+    <nav> <a href="#research">Research</a>&nbsp;&nbsp; <a
+        href="#consulting">Consulting &nbsp;</a> <a href="#preprints">Preprints
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        &nbsp;</a> <a href="#publications">Publications &nbsp;</a> <a
+        href="#cv">CV &nbsp;</a> <a href="#teaching">Teaching &nbsp;</a>
+      <a href="#software">Software &nbsp;&nbsp; </a><a
+        href="#presentations">Presentations&nbsp;</a> <a href="#books">Books</a>
+    </nav>
     <div class="container">
       <section class="profile">
         <div>
@@ -151,11 +148,53 @@
         <div align="justify"> My research is directed to <font
             color="#996633"><i>statistical inference for stochastic
               processes</i></font>, with focus on <font color="#996633"><i>uncertainty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               quantification</i></font> and <font color="#996633"><i>indirect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               observation schemes</i></font>. I work on Bayesian
           computational aspects of inference for discretely observed
           stochastic processes on graphical models with particular
-          emphasis on diffusion- and Lévy processes. Within Bayesian
+          emphasis on diffusion- and L�vy processes. Within Bayesian
           estimation for diffusions, the simulation of conditioned
           diffusion processes is of key importance. Together with Moritz
           Schauer (University of Gothenburg) I have developed general
@@ -196,7 +235,28 @@
             and maritime engineering (fatigue calculations of maritime
             structures).</font> </div>
         <p>Some keywords: <i><span lang="EN-GB"> <font color="#996633">statistical
-                inference for stochastic processes (diffusions, Lévy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                inference for stochastic processes (diffusions, L�vy
                 processes); Bayesian computation; Bayesian asymptotics;
                 graphical models; dynamical systems; shape analysis,
                 stochastic differential equations.</font><br>
@@ -212,6 +272,44 @@
           <li><span lang="EN-GB"> Director of the VU bachelor programme
               <a moz-do-not-send="true"
                 href="https://vu.nl/en/education/bachelor/business-analytics">Business
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Analytics</a> </span></li>
           <li><span lang="EN-GB"> Chair of the section Mathematical
               Statistics of the Netherlands Society for Statistics and
@@ -221,6 +319,44 @@
           <li><span lang="EN-GB"> Organiser of the nationwide seminar in
               statistics (<a moz-do-not-send="true"
 href="https://www.vvsor.nl/mathematical-statistics/pages/van-dantzig-seminar/">Van
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Dantzig seminar</a>)</span></li>
           <li><span lang="EN-GB"> Member of the STAR (Stochastics
               Applied Research) - board.</span></li>
@@ -228,10 +364,80 @@ href="https://www.vvsor.nl/mathematical-statistics/pages/van-dantzig-seminar/">V
         <span lang="EN-GB">Oratie (inaugural speech): uitgesproken op 24
           Januari 2025: <a moz-do-not-send="true"
 href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/oratie_frankvandermeulen.pdf">tekst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             oratie</a> <a moz-do-not-send="true"
 href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/oratie_presentatie2.pdf">presentatie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             oratie</a> <a moz-do-not-send="true"
 href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/large_example.mp4">animatie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             SIR</a></span> </section>
       <section id="consulting">
         <h2>Consulting Requests</h2>
@@ -248,9 +454,10 @@ href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/large_example
                       moz-do-not-send="true"
                       href="https://arxiv.org/abs/2303.13865">arXiv</a>
                     Submitted.</font></font></font></font></li>
-          <li>S. Stroustrup, M. Akhoej Pedersen, F. van der Meulen, S.
-            Sommer and R. Nielsen <font><font><font><font><font><font><font><font><font>(2025)&nbsp;</font></font></font></font></font></font></font></font><i>Stochastic
-                Phylogenetic Models of Shape </i></font><font><font><font><font><a
+          <li><font><font><font> </font></font></font>S. Stroustrup, M.
+            Akhoej Pedersen, F. van der Meulen, S. Sommer and R. Nielsen
+            <font><font><font><font><font><font><font><font><font>(2025)&nbsp;</font></font></font></font></font></font></font></font><i>
+                Stochastic Phylogenetic Models of Shape </i></font><font><font><font><font><a
                       moz-do-not-send="true"
                       href="https://www.biorxiv.org/content/10.1101/2025.04.03.646616v1">BioRXiv</a></font></font></font></font><i>
             </i>Submitted. </li>
@@ -295,6 +502,84 @@ href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/large_example
             color="#006600">I gave a talk on this topic for the
             Laplace-demon seminar <a moz-do-not-send="true"
               href="https://www.youtube.com/watch?v=XjBO4GSc0i8&amp;t=0s">laplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               demon seminar talk</a></font>. The categorical part has
           evolved into the manuscript "Compositionality in algorithms
           for smoothing". The statistical part will evolve into a
@@ -331,6 +616,32 @@ href="file:///Users/frankvandermeulen/.julia/dev/fmeulen.github.io/large_example
             Stochastic Processes and their Applications. <a
               moz-do-not-send="true"
 href="https://www.sciencedirect.com/science/article/pii/S0304414925000717?via=ihub">link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               to SPA</a><br>
           </li>
           <li>D. Belomestny, F.H. van der Meulen, and P. Spreij (2023),
@@ -342,6 +653,50 @@ href="https://www.sciencedirect.com/science/article/pii/S0304414925000717?via=ih
 href="https://www.matrix-inst.org.au/wp_Matrix2016/wp-content/uploads/2023/07/MoR22-59-FINAL.pdf"
               moz-do-not-send="true">pdf</a> available at the <a
               href="https://www.matrix-inst.org.au/2021-matrix-annals/">2021-22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               MATRIX Annals page</a>]<font color="#006600"> This is an
               overview paper, showing a common theme in various earlier
               applications. </font><br>
@@ -352,6 +707,52 @@ href="https://www.matrix-inst.org.au/wp_Matrix2016/wp-content/uploads/2023/07/Mo
               href="https://arxiv.org/pdf/2103.08478.pdf">arXiv</a>, <a
               moz-do-not-send="true"
               href="https://link.springer.com/article/10.1007/s11222-022-10180-5">Statistics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               and Computing</a> <b>33</b>(8).<font color="#006600">
               This paper shows how to adapt piecewise deterministic
               Markov processes to settings where the dominating measure
@@ -366,9 +767,52 @@ href="https://www.tandfonline.com/doi/full/10.1080/17442508.2022.2150081">Stocha
             <b>95</b>(6), 963--996.</li>
           <li><font color="#006600"><font color="#000000">S. Gugushvili,
                 F.H. van der Meulen, M. Schauer and P. Spreij (2022), <i>Nonparametric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   Bayesian volatility learning under microstructure
                   noise</i>,</font> <a
                 href="https://doi.org/10.1007/s42081-022-00185-9">Japanese
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Journal of Statistics and Data Science <b>6(1)</b>,
                 551-571</a>. [<a
                 href="https://staff.fnwi.uva.nl/p.j.c.spreij/jssd_published_version.pdf">pdf</a>].</font>
@@ -382,15 +826,98 @@ href="https://www.tandfonline.com/doi/full/10.1080/17442508.2022.2150081">Stocha
               Journal on Imaging Sciences (SIMS)</a>, <b>15</b>(1),
             293-323. </li>
           <li> S. Sommer, M. Schauer and F.H van der Meulen&nbsp; <i>Stochastic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               flows and shape bridges</i>. In Statistics of Stochastic
             Differential Equations on Manifolds and Stratified Spaces
             (hybrid meeting), <a moz-do-not-send="true"
 href="https://publications.mfo.de/bitstream/handle/mfo/3901/OWR_2021_48.pdf?sequence=4">number
-              48 in Oberwolfach Reports</a>, pp. 18â€“21.
-            Mathematisches Forschungsinstitut Oberwolfach, 2021. doi:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              48 in Oberwolfach Reports</a>, pp. 18–21. Mathematisches
+            Forschungsinstitut Oberwolfach, 2021. doi:
             10.4171/OWR/2021/48. null ; Conference date: 03-10-2021
             Through 09-10-2021.</li>
-          <li>M. Mider, M.R. Schauer and F.H. van der Meulen (2021) <i>Continuous-discrete
+          <li>M. Mider, M.R. Schauer and F.H. van der Meulen (2021) <i>Continuous</i><i>-discrete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               smoothing of diffusions</i>, <a
               href="https://arxiv.org/pdf/1712.03807.pdf">arXiv</a> ,
             Electronic Journal of Statistics<b> 15</b>, 4295-4342<font
@@ -412,6 +939,48 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
                 hypo-elliptic conditional diffusions</a></i>. <a
               moz-do-not-send="true"
 href="https://www.cambridge.org/core/journals/advances-in-applied-probability/article/abs/simulation-of-elliptic-and-hypoelliptic-conditional-diffusions/3CBDD8A76C2FE03EF87ED987BAACFDB5">Advances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               in Applied Probability</a>. <b>52</b>, 173-212.</li>
           <li>F.H. van der Meulen, M. Schauer, S. Grazzi, S. Danisch
             and&nbsp;M. Mider (2020) <i>Bayesian inference for SDE
@@ -425,8 +994,73 @@ href="https://www.cambridge.org/core/journals/advances-in-applied-probability/ar
                 href="https://projecteuclid.org/euclid.bjps/1595232026">
               </a></i><a
               href="https://projecteuclid.org/euclid.bjps/1595232026">Brazilian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               Journal of Probability and Statistics 34(3), 537-579</a><i><a
                 href="https://projecteuclid.org/euclid.bjps/1595232026">.</a></i>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             (<a
 href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f748a7c40b5074587/BJPS433.pdf"
               moz-do-not-send="true">pdf</a>).<br>
@@ -440,6 +1074,26 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
             code is on zenodo <a
               href="https://zenodo.org/record/1215901#.Wtg3N9NuZTY">https://zenodo.org/record/1215901#.Wtg3N9NuZTY</a>]</li>
           <li>S. Gugushvili, <font><span lang="NL">F.H. v</span></font>an
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             der Meulen and <font> P.J. </font>Spreij (2018) <i><a
                 href="http://link.springer.com/article/10.1007/s11203-016-9153-1">A
                 non-parametric Bayesian approach to decompounding from
@@ -459,31 +1113,611 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
           </li>
           <li>F.H. van der Meulen and M. Schauer (2017) <i><a
                 href="http://www.tandfonline.com/doi/full/10.1080/17442508.2017.1381097">Bayesian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 estimation of incompletely observed diffusions</a>, </i>Stochastics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <b>90</b>(5), 641-662. <br>
           </li>
           <li>F.H. van der Meulen and M. Schauer (2017) <i><a
                 href="https://projecteuclid.org/euclid.ejs/1495850628">Bayesian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 estimation of discretely observed multi-dimensional
                 diffusion processes using guided proposals</a></i>,&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Electronic Journal of Statistics <b>11</b>(1), 2358--2396.<br>
           </li>
           <li><span lang="NL"><font>F.H. van der Meulen, M. Schauer, J.
                 van Waaij (2017)&nbsp; <a
                   href="https://link.springer.com/article/10.1007/s11203-017-9163-7"><i>Adaptive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     nonparametric drift estimation for diffusion
                     processes using Faber-Schauder expansions</i></a>,&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Statistical Inference for Stochastic Processes <b>21</b>(3),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 603-628.</font><br>
             </span></li>
           <li><span lang="NL">F.H. van der Meulen, M. Schauer and J.H.
               van Zanten (2014) <em><a target="_blank"
                   href="http://dutiosb.twi.tudelft.nl/%7Emeulen/diff_mcmc.pdf">Reversible
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   jump MCMC for nonparametric drift estimation for
                   diffusion processes</a></em>, Computational Statistics
               and Data Analysis <b>71</b>, 615--632.</span><br>
           </li>
           <li>S. Gugushvili, S., P. Spreij and <span lang="NL">F.H. v</span>an
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             der Meulen (2015) <em><a target="_blank"
                 href="http://arxiv.org/abs/1412.7739">Non-parametric
                 Bayesian inference for multi-dimensional compound
@@ -493,6 +1727,114 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
           <li><span lang="NL">F.H. van der Meulen and J.H. van Zanten
               (2013)<i> </i><i><a
                   href="https://projecteuclid.org/euclid.bj/1358531740">Consistent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   nonparametric Bayesian inference for discretely
                   observed scalar diffusions</a></i>, <a
                 moz-do-not-send="true"
@@ -500,6 +1842,27 @@ href="https://projecteuclid.org/journals/bernoulli/volume-19/issue-1/Consistent-
               <strong>19</strong>(1), 2917-2950.</span><br>
             <span lang="NL"></span></li>
           <li><span lang="NL"><font><span lang="NL">F.H. v</span></font>an
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               der Meulen, A.W. van der Vaart and J.H. van Zanten (2006)
             </span><a target="_blank"
 href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f748a7c40b5074587/B5058.pdf"
@@ -515,6 +1878,122 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
                 moz-do-not-send="true">Parametric estimation for
                 subordinators and induced OU-processes</a></em><span
               lang="NL"> Scandinavian Journal of Statistics <strong>33</strong>(4),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               825-847.<br>
             </span></li>
           <li><span lang="NL"><font><span lang="NL">G. Jongbloed, F.H.
@@ -522,7 +2001,7 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
                     target="_blank"
 href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f748a7c40b5074587/B4018.pdf"
                     moz-do-not-send="true">Nonparametric inference for
-                    LÃ©vy driven Ornstein-Uhlenbeck processes</a></em><a
+                    Lévy driven Ornstein-Uhlenbeck processes</a></em><a
 href="http://dutiosb.twi.tudelft.nl/%7Emeulen/B4018.pdf" target="_blank">.</a>&nbsp;<a
                   moz-do-not-send="true"
 href="https://projecteuclid.org/journals/bernoulli/volume-11/issue-5/Nonparametric-inference-for-L%C3%A9vy-driven-Ornstein-Uhlenbeck-processes/10.3150/bj/1130077593.full">Bernoulli</a>
@@ -541,15 +2020,143 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/e715fa45cb3f3f5c3733a535
         </span>
         <ul>
           <li>G. Jongbloed, F.H. van der Meulen and L. Pang (2022) <i>Bayesian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               nonparametric estimation in the current status continuous
               mark model</i>,<em> <a moz-do-not-send="true"
 href="https://onlinelibrary-wiley-com.thttps://onlinelibrary.wiley.com/doi/10.1111/sjos.12562udelft.idm.oclc.org/doi/full/10.1111/sjos.12562">SJS</a></em>,
             Scandinavian Journal of Statistics <b>49</b>(3), 1329-1352.</li>
           <li> G. Jongbloed, F.H. van der Meulen and L. Pang (2021) <i>Nonparametric
-              Bayesian estimation of a concave distribution function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Bayesian estimation of a concave distribution</i><i> </i><i>function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               with mixed interval censored data, </i>Brazilian Journal
             of Probability and Statistics <b>35</b>(3), 544-568.</li>
           <li> G. Jongbloed, F.H. van der Meulen and L. Pang (2021) <i>B</i><i>ayesian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               estimation of a dec</i><i>reasing density</i> Brazilian
             Journal of Probability and Statistics Vol. <b>35(</b>2),
             392--420.</li>
@@ -577,6 +2184,25 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
         <ul>
           <li><font><font><font> Rikkert Hindriks, Frank van der Meulen,
                   Michel van Putten and Prejaas Tewarie (2025) <i>Unraveling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     high-order interactions in electrophysiological
                     brain signals using elliptical distributions: Moving
                     beyond the Gaussian approximation. </i>Accepted for
@@ -585,6 +2211,41 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
           <li>L. Gomaz, B. van Trigt, F. van der Meulen and D.J. Veeger
             (2024) <i><a moz-do-not-send="true"
 href="https://www.tandfonline.com/doi/full/10.1080/14763141.2024.2315230">Predicting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 elbow load based on individual pelvis and trunk
                 (inter)segmental rotations in fastball pitching</a></i>,
@@ -598,6 +2259,25 @@ href="https://www.tandfonline.com/doi/full/10.1080/14763141.2024.2315230">Predic
             Kaminski (2021) <i>Improved Risk-Based Inspection planning
               through in-service Hull Structure Monitoring of FPSO h</i><i>ulls,
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </i>to appear in Marine Structures.</li>
           <li>L. Meszaros, F.H. van der Meulen, G. Jongbloed and G. el
             Sarafy (2021) <i>Climate change induced uncertainties in
@@ -606,6 +2286,25 @@ href="https://www.tandfonline.com/doi/full/10.1080/14763141.2024.2315230">Predic
           <li> L. Meszaros, F.H. van der Meulen, G. Jongbloed and G. el
             Sarafy (2021) <i>A stochastic climate generator to
               complement existing climate change scenarios, </i>Stochastic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             Environmental Research and Risk Assessment (SERRA) <b>35</b>,
             719--736.<i><span style="caret-color: rgb(0, 0, 0); color:
@@ -637,6 +2336,25 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
               notes do not reflect reality in laparoscopic
               cholecystectomy.</i> The British journal of surgery. <b>98</b>(10),
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             1431-1436.</li>
           <li> F.H. van der Meulen, M.B. Vermaat and P. Willems (2010) <i><a
                 target="_blank"
@@ -655,16 +2373,190 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
               <a target="_blank"
 href="http://dutiosb.twi.tudelft.nl/%7Emeulen/SPL%236168_Vermaat_Meulen_Does_2007.pdf">Asymptotic
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Behaviour of the Variance of the EWMA Statistic for
                 Autoregressive Processes</a></em> Statistics and
             Probability Letters <strong>78</strong>(12), 1673-1682 </li>
           <li> <span lang="NL"><font><span lang="NL">H.J.J. </span></font>Ramaker,
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               E.N.M. van Sprang, J.A. Westerhuis, S.P. Gorden, F.H. van
               der Meulen and A.K. Smilde (2006) </span> <em>Performance
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               assessment and improvement of control charts for
               statistical batch process monitoring </em><span lang="NL">Statistica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               Neerlandica <strong>60</strong>(3), 339-360 </span> <span
               lang="NL"> </span><span lang="NL">2) </span></li>
@@ -674,6 +2566,25 @@ href="http://dutiosb.twi.tudelft.nl/%7Emeulen/SPL%236168_Vermaat_Meulen_Does_200
           <li> N. Litvak and F.H. van der Meulen (2015) <i>Networks
               &amp; Big Data</i>. Nieuw Archief voor Wiskunde <b>5</b>(2),
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             138--139. </li>
           <li> A. di Bucchianico, L. Iapichino, N. Litvak, F.H. van der
             Meulen and R. Wehrens (2018) <i>Mathematics for Big Data</i>
@@ -682,6 +2593,98 @@ href="file:///Users/frankvandermeulen/Sync/DOCUMENTS/temp_webpagina/naw5-2018-19
               color="#006600"> reprinted in `The Best Writing on
               Mathematics 2019'</font> <a
 href="https://press.princeton.edu/books/hardcover/9780691198675/the-best-writing-on-mathematics-2019">link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               to book</a></li>
           <li> G. Jongbloed and F.H. van der Meulen (2011) <i><a
@@ -699,6 +2702,27 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
           <li> F.H. van der Meulen and M.R. Schauer (2017) <i>On
               residual and guided proposals for diffusion bridge
               simulation</i> <a href="https://arxiv.org/abs/1708.04870">arXiv</a>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           </li>
         </ul>
@@ -720,6 +2744,60 @@ href="https://github.com/fmeulen/fmeulen.github.io/blob/55a8f47e7fef658022ad9d6f
           Delft) I have written lectures notes:<i> <a
               moz-do-not-send="true"
 href="https://github.com/fmeulen/fmeulen.github.io/blob/main/ln-wi4455.pdf">statistical
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               inference</a></i> and <i><a moz-do-not-send="true"
 href="https://github.com/fmeulen/fmeulen.github.io/blob/main/ln-timeseries2.pdf">time-series.</a></i></p>
