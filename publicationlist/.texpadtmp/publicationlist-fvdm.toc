@@ -1,0 +1,5 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}{Statistical inference for stochastic processes}}{1}{section.1}%
+\contentsline {section}{\numberline {2}{Deconvolution, decompounding, denoising, censoring...}}{3}{section.2}%
+\contentsline {section}{\numberline {3}{Applied statistics}}{4}{section.3}%
+\contentsline {section}{\numberline {4}{Outreach}}{5}{section.4}%
