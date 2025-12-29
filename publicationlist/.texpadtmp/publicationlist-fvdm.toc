@@ -3,3 +3,4 @@
 \contentsline {section}{\numberline {2}{Deconvolution, decompounding, denoising, censoring...}}{3}{section.2}%
 \contentsline {section}{\numberline {3}{Applied statistics}}{4}{section.3}%
 \contentsline {section}{\numberline {4}{Outreach}}{5}{section.4}%
+\contentsline {section}{\numberline {5}{Phd-thesis}}{5}{section.5}%
